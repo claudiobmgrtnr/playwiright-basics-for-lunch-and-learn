@@ -1,0 +1,21 @@
+{
+  "name": "playwright-lunch-and-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "firefox": "node ./browsers/firefox.js",
+    "chromium": "node ./browsers/chromium.js",
+    "webkit": "node ./browsers/webkit.js",
+    "the_last_script_you_ever_going_to_need": "node ./oneMoreThing/shoppinglist.js",
+    "demo": "npm run webkit && npm run chromium && npm run firefox"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.6.2"
+  }
+}
